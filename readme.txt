@@ -1,129 +1,131 @@
-==================================================================================================
+📖 Pastor Mathew Solomon Olusegun Website – README
+🌍 Project Overview
 
-DESCRIPTION:
+This is the official website of Pastor Mathew Solomon Olusegun, an ordained minister under the Redeemed Christian Church of God (RCCG). The website serves as a professional pastoral profile and ministry hub—showcasing his biography, sermons, family life, events, and resources.
 
-HUDSON is a simple and modern free personal website template designed for creatives and 
-professionals who want to showcase their skills and work in an eye-catching way. Its simple yet 
-sophisticated design is perfect for anyone who wants to create a polished and professional online 
-presence without spending a lot of time or money on web development.
+The design emphasizes professionalism, simplicity, warmth, and spiritual depth, reflecting Pastor Mathew’s ministry and family values.
 
-==================================================================================================
+🎯 Goals
 
+Provide an accessible and professional online presence for Pastor Mathew.
 
-LICENSE:
+Share sermons, teachings, and devotionals with a global audience.
 
-This free resource is provided by styleshout.com and is free to use in 
-both personal and commercial projects.
+Highlight his family, academic background, and ministry journey.
 
+Serve as a point of connection for invitations, prayer requests, and counseling.
 
-Rights:
--------
+Enable safe and transparent giving/donations for ministry work.
 
-You are permitted to use this free resource in any number of personal and commercial projects for 
-yourself or a client. You may modify the resource according to your requirements and include them 
-in your projects under the following condition - you MUST give appropriate credit, provide an 
-attribution link to styleshout.com.
+🏗 Website Structure
+1. Homepage
 
+Hero section with tagline and CTA
 
-Prohibitions:
--------------
+Mini bio with link to full About page
 
-You are not permitted to resell or redistribute(even for free) the resource "as is" without 
-prior consent. If you would like to republish or promote this resource on your site, please 
-link back to the appropriate resource page on styleshout.com where users can find the download 
-and not directly to the download zip file.
+Quick links: Sermons | About | Events | Contact
 
+2. About
 
-Attribution: 
-------------
+Full Biography
 
-You must include a credit link to our website(https://styleshout.com) somewhere on your site. 
-We prefer the footer credit that comes with the template but you are still free to move it 
-somewhere else.
+Education (BSc, Master’s)
 
+Ministry journey under RCCG
 
+Mission & Vision statement
 
-If you have any questions about the License, feel free to contact us.
+Family section (wife, children, grandchild)
 
+3. Ministry
 
------------------------------------------------------------------------------------------------------
+Sermons (video/audio integration)
 
+Events & Programs calendar
 
-REMOVING THE ATTRIBUTION LINK:
+Photo/Video gallery
 
-We understand that there are situations where you want to use our templates without 
-the crediting obligation. If that's your case, you can always send us a 
-credit removal fee of 10 USD through Paypal. This will allow you to use a single 
-template attribution/credit link free on ONE DOMAIN name.
+4. Family & Legacy
 
-You can send your payments through Paypal to this address: ealigam@gmail.com or
-visit our attribution removal page: https://styleshout.com/attribution-free/ 
-and click the pay button on the page.
+Family highlights (husband, father, grandfather)
 
-If possible, kindly send us the site's url where the template is being used. 
-Also, keep your Paypal receipt as proof of payment and your good to go.
+Values and generational impact
 
+5. Resources
 
------------------------------------------------------------------------------------------------------- 
+Blog / Devotionals
 
+Books, study guides, sermon notes (if available)
 
-SUPPORT:
-    
-Since HUDSON is distributed for free, support is not offered. HUDSON is coded according 
-to current web standards and we did our best to make the template easy to use and modify.
-If you have minimum web development experience, you can easily modify the template. 
-However, If you're still new to HTML and CSS, I suggest that you visit the 
-following tutorials:
+Downloadable prayer guides
 
- - https://marksheet.io/
- - http://learn.shayhowe.com/html-css/
+6. Connect
 
-These will teach you the essentials of HTML and CSS. In addition, if you want to include
-javascript in your skill-set, you can also check out these tutorials: 
+Contact form (prayer requests, invitations, counseling)
 
- - https://www.codecademy.com/learn/introduction-to-javascript
- - https://javascript.info/
+Social media links
 
+RCCG church details & service times
 
+7. Give / Support
 
+Online donations (Paystack/Flutterwave)
 
--------------------------------------------------------------------------------------------------------
+Statement of purpose for giving (missions, outreach, welfare)
 
+8. Footer
 
-GET THE LATEST VERSION:
+Quick navigation links
 
-We update our templates on a regular basis so to make sure that you have the latest version, 
-always download the template files directly on our website(https://styleshout.com/)
+RCCG affiliation note
 
+Bible verse tagline
 
+📌 Technical Notes
 
--------------------------------------------------------------------------------------------------------
+Design Style: Clean, mobile-first, minimal, faith-centered.
 
+Color Palette: White (purity), Blue (RCCG identity), Green (growth/hope).
 
-SOURCES AND CREDITS:
+Typography: Serif (for headings/scripture), Sans-serif (for body text).
 
-I've used the following resources as listed.
+Hosting Options: Hostinger, Namecheap, or RCCG’s internal hosting if provided.
 
-Fonts:
- - Castoro Font (https://fonts.google.com/specimen/Castoro)
- - Public Sans Font (https://fonts.google.com/specimen/Public+Sans)
+CMS (optional): WordPress for easy content management OR static site (Next.js/Gatsby) for speed.
 
-Icons:
- - Boxicons (https://boxicons.com/)
- - Iconmonstr (https://iconmonstr.com/)
+📝 Content Checklist
 
-Stock Photos and Graphics:
- - Unsplash.com (https://unsplash.com/)
- 
-Javascript Files:
- - MoveTo.js (https://github.com/hsnaydd/moveTo)
- - Prism.js (https://prismjs.com/)
- - Swiper JS (https://swiperjs.com/)
- - GLightbox (https://biati-digital.github.io/glightbox/)
+Biography (short + full)
 
--------------------------------------------------------------------------------------------------------
+High-quality professional photos (portrait, family, ministry)
 
+Sermon videos/audio (links or uploads)
 
-Thanks for downloading from StyleShout :)
+Event details (recurring + upcoming)
 
+Blog/devotional drafts
 
+Donation details (bank/payment integration)
+
+👥 Team Workflow
+
+Developer/Designer: Builds structure & branding.
+
+Content Manager: Uploads sermons, devotionals, events.
+
+Pastor/Assistant: Provides bio, photos, event info, and approves content.
+
+✅ Next Steps
+
+Gather all content (bio, photos, sermons, event details).
+
+Set up domain name (e.g., pastormathewolusegun.org).
+
+Choose hosting & CMS.
+
+Build homepage + core pages.
+
+Add sermon uploads & event calendar.
+
+Launch and test mobile + desktop.
