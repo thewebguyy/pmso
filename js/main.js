@@ -296,6 +296,68 @@
     }; // end ssMoveTo
 
 
+   /* theme mode toggle
+    * ------------------------------------------------------ */
+    const ssThemeMode = function() {
+
+        const themeToggle = document.querySelector('#theme-toggle');
+        const siteBody = document.querySelector('body');
+
+        if (!themeToggle) return;
+
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem('pmso-theme');
+        if (savedTheme === 'dark') {
+            siteBody.classList.add('dark-mode');
+        }
+
+        themeToggle.addEventListener('click', function() {
+            siteBody.classList.toggle('dark-mode');
+            
+            // Save preference
+            if (siteBody.classList.contains('dark-mode')) {
+                localStorage.setItem('pmso-theme', 'dark');
+            } else {
+                localStorage.setItem('pmso-theme', 'light');
+            }
+
+            // Haptic Feedback Simulation (if supported by device/browser)
+            if (window.navigator && window.navigator.vibrate) {
+                window.navigator.vibrate(10);
+            }
+        });
+
+    }; // end ssThemeMode
+
+
+   /* entrance animations
+    * ------------------------------------------------------ */
+    const ssEntranceAnimations = function() {
+
+        const animateItems = document.querySelectorAll('.bento-item, .section-header, .attention-getter');
+        
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-up', 'active');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        animateItems.forEach(item => {
+            item.classList.add('fade-up');
+            observer.observe(item);
+        });
+
+    }; // end ssEntranceAnimations
+
+
    /* Initialize
     * ------------------------------------------------------ */
     (function ssInit() {
@@ -308,6 +370,8 @@
         ssSwiper();
         ssAlertBoxes();
         ssMoveTo();
+        ssThemeMode();
+        ssEntranceAnimations();
 
     })();
 
